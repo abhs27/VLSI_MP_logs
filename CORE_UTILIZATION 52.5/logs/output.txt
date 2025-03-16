@@ -1,0 +1,24 @@
+OpenROAD v2.0-18094-g598034383 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[WARNING ODB-0229] Error: library (sky130_fd_sc_hd_merged) already exists
+Current design: shapipe
+[INFO GRT-0012] Found 0 antenna violations.
+[WARNING RSZ-0021] no estimated parasitics. Using wire load models.
+[INFO RSZ-0094] Found 61 endpoints with setup violations.
+[INFO RSZ-0099] Repairing 61 out of 61 (100.00%) violating endpoints...
+[INFO RSZ-0059] Removed 3 buffers.
+[INFO RSZ-0040] Inserted 5 buffers.
+[INFO RSZ-0041] Resized 77 instances.
+[INFO RSZ-0043] Swapped pins on 19 instances.
+[WARNING RSZ-0062] Unable to repair all setup violations.
+[INFO RSZ-0033] No hold violations found.
+Design area 277635 u^2 68% utilization.
+tns -120.25
+wns -3.19
+core_clock period_min = 10.69 fmax = 93.58
+[WARNING PSM-0038] Unconnected node on net VDD at location (450.570um, 443.360um), layer: met1.
+[WARNING PSM-0039] Unconnected instance rebuffer18/VPWR at location (450.570um, 443.360um).
+[ERROR PSM-0069] Check connectivity failed on VDD.
+Error: command.tcl, 17 PSM-0069

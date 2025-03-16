@@ -1,0 +1,43 @@
+OpenROAD v2.0-18094-g598034383 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[WARNING ODB-0229] Error: library (sky130_fd_sc_hd_merged) already exists
+Current design: shapipe
+[INFO GRT-0012] Found 0 antenna violations.
+[WARNING RSZ-0021] no estimated parasitics. Using wire load models.
+[INFO RSZ-0094] Found 65 endpoints with setup violations.
+[INFO RSZ-0099] Repairing 65 out of 65 (100.00%) violating endpoints...
+[INFO RSZ-0059] Removed 1 buffers.
+[INFO RSZ-0045] Inserted 3 buffers, 1 to split loads.
+[INFO RSZ-0041] Resized 32 instances.
+[INFO RSZ-0043] Swapped pins on 30 instances.
+[WARNING RSZ-0062] Unable to repair all setup violations.
+[INFO RSZ-0033] No hold violations found.
+Design area 280383 u^2 56% utilization.
+tns -128.76
+wns -3.03
+core_clock period_min = 10.53 fmax = 94.98
+[INFO PSM-0040] All shapes on net VDD are connected.
+[INFO PSM-0073] Using bump pattern with x-pitch 140.0000um, y-pitch 140.0000um, and size 70.0000um with an reduction factor of 3x.
+########## IR report #################
+Net              : VDD
+Corner           : default
+Supply voltage   : 1.80e+00 V
+Worstcase voltage: 1.75e+00 V
+Average voltage  : 1.79e+00 V
+Average IR drop  : 5.63e-03 V
+Worstcase IR drop: 4.95e-02 V
+Percentage drop  : 2.75 %
+######################################
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             3.21e-02   1.56e-03   2.77e-08   3.37e-02   4.6%
+Combinational          3.40e-01   3.47e-01   7.42e-08   6.87e-01  93.5%
+Clock                  1.00e-02   4.20e-03   5.53e-09   1.42e-02   1.9%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  3.82e-01   3.53e-01   1.07e-07   7.35e-01 100.0%
+                          52.0%      48.0%       0.0%
